@@ -45,6 +45,10 @@ https://hub.docker.com/r/fasca22/custom-nginx
 
 # Решение 2
 ![2 1](https://github.com/user-attachments/assets/2786a64f-cc06-4657-8da8-c5711b3b7f54)
+![2 2](https://github.com/user-attachments/assets/cf2ce2e8-064a-4a25-a849-ace04c558b18)
+![2 3](https://github.com/user-attachments/assets/59afcd1c-86ae-4a8c-a2cb-38502484bfc4)
+![2 4](https://github.com/user-attachments/assets/0f7303f7-6afd-4a29-8951-7e99a89fd943)
+
 
 
 ## Задача 3
