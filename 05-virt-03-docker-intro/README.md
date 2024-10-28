@@ -68,9 +68,6 @@ https://hub.docker.com/r/fasca22/custom-nginx
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод.
 
 # Решение 3
-
-
-## Задача 4
 ![3 1](https://github.com/user-attachments/assets/10a93ee1-14ef-491e-96d2-d7f48290dd58)
 ![3 2](https://github.com/user-attachments/assets/b4653afc-f7d6-41e8-b90e-132764856aba)
 ![3 3](https://github.com/user-attachments/assets/20ef3ea9-f5da-45ba-9a5c-a22d9f68d8c7)
@@ -80,8 +77,7 @@ https://hub.docker.com/r/fasca22/custom-nginx
 ![3 7](https://github.com/user-attachments/assets/23044f9f-ed5c-4576-85e7-28d0a9787cab)
 ![3 8](https://github.com/user-attachments/assets/6876746f-42ac-4880-a08d-a15a80a4b6e6)
 
-
-
+## Задача 4
 - Запустите первый контейнер из образа ***centos*** c любым тегом в фоновом режиме, подключив папку  текущий рабочий каталог ```$(pwd)``` на хостовой машине в ```/data``` контейнера, используя ключ -v.
 - Запустите второй контейнер из образа ***debian*** в фоновом режиме, подключив текущий рабочий каталог ```$(pwd)``` в ```/data``` контейнера. 
 - Подключитесь к первому контейнеру с помощью ```docker exec``` и создайте текстовый файл любого содержания в ```/data```.
@@ -93,7 +89,6 @@ https://hub.docker.com/r/fasca22/custom-nginx
 
 # Решение 4
 ![4_0](https://github.com/user-attachments/assets/e54835b3-be90-4b55-88b4-2b20f5f80316)
-
 
 
 ## Задача 5
@@ -153,6 +148,7 @@ services:
 "include:
   - docker-compose.yaml"
 И будут запускаться оба файла
+
 ![5 3](https://github.com/user-attachments/assets/94261537-2072-46f5-baaa-d3b59446e2f1)
 ![5 4](https://github.com/user-attachments/assets/670fba28-4133-4f0e-b503-ba6e45749ade)
 ![5 5](https://github.com/user-attachments/assets/d0bc39c4-5fd0-4959-bb46-b84822f1fd00)
@@ -160,8 +156,6 @@ services:
 ![5 7](https://github.com/user-attachments/assets/082d1d2e-c1e3-4846-8c7e-741c54001790)
 ![5 8](https://github.com/user-attachments/assets/b6ae8957-dcde-4cc4-a0b3-3177e7ca8280)
 ![5 9](https://github.com/user-attachments/assets/a51b286e-a0b0-47d9-8791-5e8dcdf07e4e)
-
-
 
 ---
 
