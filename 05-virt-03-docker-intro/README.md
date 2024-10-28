@@ -29,7 +29,7 @@ Hey, Netology
 - Соберите и отправьте созданный образ в свой dockerhub-репозитории c tag 1.0.0 (ТОЛЬКО ЕСЛИ ЕСТЬ ДОСТУП). 
 - Предоставьте ответ в виде ссылки на https://hub.docker.com/<username_repo>/custom-nginx/general .
 
-<span style="color:red">## Решение 1</span>
+# Решение 1
 https://hub.docker.com/r/fasca22/custom-nginx
 
 ## Задача 2
@@ -43,8 +43,9 @@ https://hub.docker.com/r/fasca22/custom-nginx
 
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод.
 
-<span style="color:red">## Решение 2</span>
-/home/kamenev/Рабочий стол/development/Devops_cours/05-virt-03-docker-intro/2.1.png
+# Решение 2
+![2 1](https://github.com/user-attachments/assets/2786a64f-cc06-4657-8da8-c5711b3b7f54)
+
 
 ## Задача 3
 1. Воспользуйтесь docker help или google, чтобы узнать как подключиться к стандартному потоку ввода/вывода/ошибок контейнера "custom-nginx-t2".
