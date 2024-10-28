@@ -49,8 +49,6 @@ https://hub.docker.com/r/fasca22/custom-nginx
 ![2 3](https://github.com/user-attachments/assets/59afcd1c-86ae-4a8c-a2cb-38502484bfc4)
 ![2 4](https://github.com/user-attachments/assets/0f7303f7-6afd-4a29-8951-7e99a89fd943)
 
-
-
 ## Задача 3
 1. Воспользуйтесь docker help или google, чтобы узнать как подключиться к стандартному потоку ввода/вывода/ошибок контейнера "custom-nginx-t2".
 2. Подключитесь к контейнеру и нажмите комбинацию Ctrl-C.
@@ -89,7 +87,6 @@ https://hub.docker.com/r/fasca22/custom-nginx
 
 # Решение 4
 ![4_0](https://github.com/user-attachments/assets/e54835b3-be90-4b55-88b4-2b20f5f80316)
-
 
 ## Задача 5
 
@@ -156,6 +153,8 @@ services:
 ![5 7](https://github.com/user-attachments/assets/082d1d2e-c1e3-4846-8c7e-741c54001790)
 ![5 8](https://github.com/user-attachments/assets/b6ae8957-dcde-4cc4-a0b3-3177e7ca8280)
 ![5 9](https://github.com/user-attachments/assets/a51b286e-a0b0-47d9-8791-5e8dcdf07e4e)
+
+Предупрежение том, что найдены контейнеры, которые не описаны в файле. Для их очистки нужно выполнить ту же команду с флагом --remove-orphans.
 
 ---
 
