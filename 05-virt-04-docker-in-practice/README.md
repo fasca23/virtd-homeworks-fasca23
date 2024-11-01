@@ -42,6 +42,7 @@ See 'snap info docker' for additional versions.
 ### ВНИМАНИЕ!
 !!! В процессе последующего выполнения ДЗ НЕ изменяйте содержимое файлов в fork-репозитории! Ваша задача ДОБАВИТЬ 5 файлов: ```Dockerfile.python```, ```compose.yaml```, ```.gitignore```, ```.dockerignore```,```bash-скрипт```. Если вам понадобилось внести иные изменения в проект - вы что-то делаете неверно!
 ---
+
 ## Решение
 ![1 0](https://github.com/user-attachments/assets/7644f6c8-51af-4061-9e8f-d0458d4be00f)
 
@@ -72,6 +73,12 @@ Dockerfile.python - https://github.com/fasca23/shvirtd-example-python/blob/main/
 
 6. Остановите проект. В качестве ответа приложите скриншот sql-запроса.
 
+## Решение
+![2 0](https://github.com/user-attachments/assets/36ee75fb-5218-4ee6-b1f0-9bcd63a33945)
+![3 0](https://github.com/user-attachments/assets/11ade100-e8bd-4bfc-9dbe-d6adef7ba3e7)
+
+compose.yaml - https://github.com/fasca23/shvirtd-example-python/blob/main/compose.yaml
+
 ## Задача 4
 1. Запустите в Yandex Cloud ВМ (вам хватит 2 Гб Ram).
 2. Подключитесь к Вм по ssh и установите docker.
@@ -79,6 +86,18 @@ Dockerfile.python - https://github.com/fasca23/shvirtd-example-python/blob/main/
 4. Зайдите на сайт проверки http подключений, например(или аналогичный): ```https://check-host.net/check-http``` и запустите проверку вашего сервиса ```http://<внешний_IP-адрес_вашей_ВМ>:8090```. Таким образом трафик будет направлен в ingress-proxy. ПРИМЕЧАНИЕ:  приложение(old_main.py) весьма вероятно упадет под нагрузкой, но успеет обработать часть запросов - этого достаточно. Обновленная версия (main.py) не прошла достаточного тестирования временем, но должна справиться с нагрузкой.
 5. (Необязательная часть) Дополнительно настройте remote ssh context к вашему серверу. Отобразите список контекстов и результат удаленного выполнения ```docker ps -a```
 6. В качестве ответа повторите  sql-запрос и приложите скриншот с данного сервера, bash-скрипт и ссылку на fork-репозиторий.
+
+## Решение
+![4 0](https://github.com/user-attachments/assets/558e0825-749b-4742-b2ea-6e2f7f0e883d)
+![4 1](https://github.com/user-attachments/assets/e21d0997-d884-4489-b80e-76678bea284a)
+![4 2](https://github.com/user-attachments/assets/3bd38170-fb8e-437f-b1fe-d445b458d1e9)
+![4 3](https://github.com/user-attachments/assets/743167e7-aa7d-44a5-a57b-6b529f9ea0ab)
+![4 4](https://github.com/user-attachments/assets/23461a21-fae2-4c98-9e0b-43f4e29de929)
+![4 5](https://github.com/user-attachments/assets/684b0bfd-daa1-4d48-801d-66eec298bea8)
+
+Fork - https://github.com/fasca23/shvirtd-example-python/tree/main
+
+bash-скрипт - https://github.com/fasca23/shvirtd-example-python/blob/main/project_dz.sh
 
 ## Задача 5 (*)
 1. Напишите и задеплойте на вашу облачную ВМ bash скрипт, который произведет резервное копирование БД mysql в директорию "/opt/backup" с помощью запуска в сети "backend" контейнера из образа ```schnitzler/mysqldump``` при помощи ```docker run ...``` команды. Подсказка: "документация образа."
