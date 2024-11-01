@@ -42,6 +42,10 @@ See 'snap info docker' for additional versions.
 ### ВНИМАНИЕ!
 !!! В процессе последующего выполнения ДЗ НЕ изменяйте содержимое файлов в fork-репозитории! Ваша задача ДОБАВИТЬ 5 файлов: ```Dockerfile.python```, ```compose.yaml```, ```.gitignore```, ```.dockerignore```,```bash-скрипт```. Если вам понадобилось внести иные изменения в проект - вы что-то делаете неверно!
 ---
+## Решение
+![1 0](https://github.com/user-attachments/assets/7644f6c8-51af-4061-9e8f-d0458d4be00f)
+Fork - https://github.com/fasca23/shvirtd-example-python/tree/main
+Dockerfile.python - https://github.com/fasca23/shvirtd-example-python/blob/main/Dockerfile.python
 
 ## Задача 2 (*)
 1. Создайте в yandex cloud container registry с именем "test" с помощью "yc tool" . [Инструкция](https://cloud.yandex.ru/ru/docs/container-registry/quickstart/?from=int-console-help)
